@@ -1,0 +1,287 @@
+/* Đặt ở đầu file style.css */
+@font-face {
+    font-family: 'Aeonik Pro';
+    src: url('../fonts/Aeonik Pro Font Family/AeonikPro-Trial/AeonikProTRIAL-Regular.otf') format('opentype');
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Aeonik Pro';
+    src: url('../fonts/Aeonik Pro Font Family/AeonikPro-Trial/AeonikProTRIAL-Regular.otf') format('opentype');
+    font-weight: 500;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Aeonik Pro';
+    src: url('../fonts/Aeonik Pro Font Family/AeonikPro-Trial/AeonikProTRIAL-Bold.otf') format('opentype');
+    font-weight: 700;
+    font-style: normal;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Aeonik Pro', sans-serif;
+}
+
+body {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #f5f5f5;
+}
+
+.main-header,
+.main-footer,
+.wrapper {
+    width: 100%;
+    max-width: 1440px;
+    background-color: #fff;
+}
+
+.main-header {
+    width: 100%;
+    max-width: 1440px;
+    display: flex;
+    justify-content: center;
+    background-color: #ffffff;
+
+}
+
+.header-container {
+    width: 100%;
+    width: 1440px;
+    height: 74px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 16px 150px;
+}
+
+.logo {
+    padding-bottom: 1.04px;
+    padding-top: 1.04px;
+    padding-right: 336px;
+    padding-left: 0px;
+    width: 109px;
+    height: 39.92px;
+    opacity: 1;
+}
+
+.logo img {
+    height: 32px;
+    display: block;
+}
+
+
+.nav-menu ul {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    gap: 74px;
+    align-items: center;
+}
+
+.nav-menu ul li a {
+    font-family: 'Aeonik Pro', sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: -0.01em;
+    color: #1A1A1A;
+    text-decoration: none;
+    display: inline-block;
+    white-space: nowrap;
+    -webkit-font-smoothing: antialiased;
+}
+
+.nav-menu ul li a:hover {
+    opacity: 0.7;
+    transition: 0.3s;
+}
+
+.header-action {
+    padding-left: 78px;
+}
+
+.btn-contact {
+    background-color: #0047FF;
+    color: white;
+    padding: 10px 24px;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+
+
+
+
+/*Footer*/
+.main-footer {
+    width: 1440px;
+    height: 627px;
+    background-color: #fff;
+    display: flex;
+    justify-content: center;
+
+}
+
+.footer-container {
+    width: 1140px;
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+
+    margin-top: 64px;
+    margin-bottom: 64px;
+
+}
+
+.footer-backtotop {
+    width: 46;
+    height: 46;
+    margin-top: -70px;
+    gap: 10px;
+    border-radius: 23px;
+    border-width: 1.21px;
+
+}
+
+.footer-top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 40px;
+}
+
+.footer-logo {
+    width: 139px;
+    height: 51px;
+}
+
+.footer-top-title {
+    font-family: 'Aeonik Pro', sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 18px;
+    line-height: 28px;
+    letter-spacing: 0.02em;
+    color: #262626;
+    -webkit-font-smoothing: antialiased;
+    margin: 0;
+    width: 200px;
+    padding-top: 16px;
+}
+
+.footer-middle {
+    display: flex;
+    justify-content: space-between;
+    gap: 32px;
+}
+
+.footer-nav {
+    display: flex;
+    gap: 60px;
+}
+
+.nav-col a {
+    display: block;
+    text-decoration: none;
+    color: #000;
+    font-weight: 700;
+    /* Bold như trong hình */
+    font-size: 14px;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+}
+
+.footer-locations {
+    display: flex;
+    gap: 32px;
+}
+
+.location h4 {
+    font-size: 14px;
+    font-weight: 700;
+    margin-bottom: 15px;
+}
+
+.location p {
+    font-family: 'Aeonik Pro', sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 18px;
+    line-height: 28px;
+    letter-spacing: 0.02em;
+    color: #262626;
+    -webkit-font-smoothing: antialiased;
+    width: 198.5px;
+}
+
+
+.footer-top-left p {
+    font-family: 'Aeonik Pro', sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 18px;
+    line-height: 28px;
+    letter-spacing: 0.02em;
+    color: #1A1A1A;
+    -webkit-font-smoothing: antialiased;
+}
+
+.footer-divider {
+    border: 0;
+    border-top: 1px solid #787878;
+    margin: 40px 0 20px 0;
+}
+
+.footer-bottom {
+    width: 415px;
+    height: 60px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    opacity: 1;
+    transform: rotate(0deg);
+    margin-top: 32px;
+    margin-left: 364px;
+    margin-right: 364px;
+    margin-bottom: 0px;
+
+}
+
+.footer-bottom p,
+.footer-bottom a {
+    font-family: 'Aeonik Pro', sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0;
+    color: #262626;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    text-decoration: none;
+}
+
+.footer-bottom a:hover {
+    opacity: 0.7;
+}
+
+.footer-social {
+    display: flex;
+    width: 40px;
+    height: 40px;
+    gap: 10px;
+}
