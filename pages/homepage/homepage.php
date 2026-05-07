@@ -332,3 +332,285 @@
         Away Digital Home creates Photorealistic renders, cinematic videos, immersive 360° tours and personalized brochures support every stage of the homebuilding journey, from first touchpoint through to final selections.
     </div>
 </section>
+
+<!-- SECTION 4 -->
+<section style="
+    width: 1440px;
+    height: 958px;
+    padding: 80px 150px;
+    background: linear-gradient(180deg, #FFFFFF -22.29%, #D8D8D8 146.76%);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+">
+    <div style="
+        width: 1140px;
+        height: 806px;
+        display: flex;
+        flex-direction: column;
+        gap: 64px;
+    ">
+        <div style="
+            width: 1140px;
+            height: 100px;
+            display: flex;
+            flex-direction: column;
+            gap: 24px;
+        ">
+            <div style="
+                width: 1140px;
+                height: 48px;
+                font-weight: 700;
+                font-size: 36px;
+                line-height: 48px;
+                letter-spacing: -0.2px;
+                text-align: center;
+            ">
+                One <span style="color: #1542FF;">interactive 3D experience</span> for your homebuyers
+            </div>
+            <div style="
+                width: 1140px;
+                height: 28px;
+                font-weight: 400;
+                font-size: 18px;
+                line-height: 28px;
+                letter-spacing: 0px;
+                text-align: center;
+            ">
+                Empower your clients with the ease and precision of real-time home visualisation at every stage.
+            </div>
+        </div>
+        <div style="
+            width: 1140px;
+            height: 642px;
+            position: relative;
+            overflow: hidden;
+            opacity: 1;
+        ">
+            <img src="pages/homepage/media/img6.png" style="
+                width: 1140px;
+                height: 642px;
+                object-fit: cover;
+                display: block;
+            "/>
+            <!-- Gradient -->
+            <div style="
+                position: absolute;
+                inset: 0;
+
+                background: linear-gradient(
+                    180deg,
+                    rgba(0, 0, 0, 0) 10.97%,
+                    rgba(0, 0, 0, 0.63) 59.92%
+                );
+
+                z-index: 1;
+            "></div>
+
+            <div style="
+                position: absolute;
+                inset: 0;
+
+                display: flex;
+                justify-content: space-between;
+
+                z-index: 2;
+            ">
+                <!-- Left -->
+                <div style="
+                    width: 50%;
+                    height: 100%;
+                    padding: 48px 24px;
+                    border-right: 1px solid #A8A8A8;
+                    box-sizing: border-box;
+                    display: flex;
+                    align-items: flex-end;
+                ">
+                    <div style="
+                        width: 469px;
+                        height: 328px;
+                        padding: 40px 30px;
+                        display: flex;
+                        flex-direction: column;
+                        gap: 24px;
+                        margin-left: auto;
+                    ">
+                        <div style="
+                            width: 409px;
+                            height: 110px;
+                            gap: 8px;
+                            display: flex;
+                            flex-direction: column;
+                            justify-content: center;
+                            align-items: center;
+                        ">
+                            <div style="
+                                width: 409px;
+                                height: 28px;
+                                font-weight: 700;
+                                font-size: 24px;
+                                line-height: 28px;
+                                color: #F3F4F6
+                            ">
+                                Explore the home
+                            </div> 
+                        </div> 
+                        <div style="
+                            width: 409px;
+                            height: 96px;
+                            font-weight: 400;
+                            font-size: 18px;
+                            line-height: 24px;
+                            color: #A8A8A8;
+                        ">
+                            Give homebuyers a photo-real, interactive way to visualise their future home, helping them connect with the design and move forward with confidence.
+                        </div> 
+                        <button style="
+                            width: 143px;
+                            height: 40px;
+                            padding: 8px 28px;
+                            display: flex;
+                            justify-content: center;
+                            align-items: center;
+                            gap: 10px;
+                            background: #1542FF;
+                            border: none;
+                            border-radius: 8px;
+                            font-weight: 400;
+                            font-size: 16px;
+                            line-height: 24px;
+                            color: #FFFFFF;
+                            cursor: pointer;
+                        ">
+                            Learn more
+                        </button>  
+                    </div>
+                </div>
+
+                <!-- Right -->
+                <div style="
+                    width: 50%;
+                    height: 100%;
+                    padding: 48px 24px;
+                    box-sizing: border-box;
+                    display: flex;
+                    align-items: flex-end;
+                ">
+                    <div style="
+                        width: 469px;
+                        height: 328px;
+                        padding: 40px 30px;
+                        display: flex;
+                        flex-direction: column;
+                        gap: 24px;
+                    ">
+                        <div style="
+                            width: 409px;
+                            height: 110px;
+                            gap: 8px;
+                            display: flex;
+                            flex-direction: column;
+                            justify-content: center;
+                            align-items: center;
+                        ">
+                            <div style="
+                                width: 409px;
+                                height: 28px;
+                                font-weight: 700;
+                                font-size: 24px;
+                                line-height: 28px;
+                                color: #F3F4F6
+                            ">
+                                Personalize the details
+                            </div> 
+                        </div> 
+                        <div style="
+                            width: 409px;
+                            height: 96px;
+                            font-weight: 400;
+                            font-size: 18px;
+                            line-height: 24px;
+                            color: #A8A8A8;
+                        ">
+                           Enable homebuyers to explore and select finishes, fixtures and options in real time, helping them clearly understand their choices in the design studio.
+                        </div> 
+                        <button style="
+                            width: 143px;
+                            height: 40px;
+                            padding: 8px 28px;
+                            display: flex;
+                            justify-content: center;
+                            align-items: center;
+                            gap: 10px;
+                            background: #1542FF;
+                            border: none;
+                            border-radius: 8px;
+                            font-weight: 400;
+                            font-size: 16px;
+                            line-height: 24px;
+                            color: #FFFFFF;
+                            cursor: pointer;
+                        ">
+                            Learn more
+                        </button>  
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- SECTION 5 -->
+
+<!-- SECTION 6 -->
+<section style="
+    width: 1440px;
+    height: 944px;
+    padding: 80px 150px;
+    display: flex;
+    flex-direction: column;
+    gap: 64px;
+    background: #FFFFFF;
+">
+    <div style="
+        width: 1140;
+        height: 96;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+        gap: 64px;
+    ">
+        <div style="
+            width: 542px;
+            height: 96px;
+            font-weight: 700;
+            font-size: 36px;
+            line-height: 48px;
+            letter-spacing: -0.2px;
+            text-align: center;
+            color: #262626;
+        ">
+            Trusted by <span style="color: #1542FF">leading homebuilders and developers</span>
+        </div>
+        <video 
+            playsinline
+            poster="pages/homepage/media/fallback.png"
+            style="
+                width: 1015px;
+                height: 576px;
+                background: #D8D8D8;
+                object-fit: cover;
+                display: block;
+            "
+        >
+            <source src="pages/homepage/media/video.mp4" type="video/mp4">
+        </video>
+    </div>
+    <div></div>
+</section>
+
+</section>
+
+<!-- SECTION 7 -->
