@@ -11,7 +11,9 @@
     include "components/header.php";
 ?>
 <main>
-    content
+     <?php
+        include "pages/homepage/homepage.php";
+    ?>
 </main>
 <?php
 include "components/footer.php";
