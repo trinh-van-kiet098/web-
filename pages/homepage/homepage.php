@@ -447,6 +447,21 @@
                         ">
                             <div style="
                                 width: 409px;
+                                display: flex;
+                                justify-content: flex-start;
+                            ">
+                                <svg width="36" height="36" viewBox="0 0 36 36" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <circle cx="24.0025" cy="8.99664" r="6.0025" stroke="#FE2C55" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                                    <path d="M31.5055 16.4996L28.2461 13.2402" stroke="#FE2C55" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                                    <path d="M22.502 31.5057H27.0038C29.4901 31.5057 31.5057 29.4901 31.5057 27.0038V22.502" stroke="#FE2C55" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                                    <path d="M4.49414 14.9989V10.497C4.49414 8.01068 6.5097 5.99512 8.99602 5.99512H11.9973" stroke="#FE2C55" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                                    <path d="M4.49414 21.4102V30.755C4.49414 31.1693 4.83007 31.5053 5.24445 31.5053H17.2495C17.6638 31.5053 17.9998 31.1693 17.9998 30.755V21.4102" stroke="#FE2C55" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                                    <path d="M13.4228 31.5054V26.2532C13.4228 25.8389 13.0868 25.5029 12.6725 25.5029H9.67121C9.25682 25.5029 8.9209 25.8389 8.9209 26.2532V31.5054" stroke="#FE2C55" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                                    <path d="M19.501 22.5018L11.6889 16.8203C11.4258 16.6289 11.0694 16.6289 10.8063 16.8203L2.99414 22.5018" stroke="#FE2C55" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                                </svg>
+                            </div>
+                            <div style="
+                                width: 409px;
                                 height: 28px;
                                 font-weight: 700;
                                 font-size: 24px;
@@ -514,6 +529,21 @@
                             justify-content: center;
                             align-items: center;
                         ">
+                            <div style="
+                                width: 409px;
+                                display: flex;
+                                justify-content: flex-start;
+                            ">
+                                <svg width="36" height="36" viewBox="0 0 36 36" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <circle cx="24.0025" cy="8.99664" r="6.0025" stroke="#FE2C55" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                                    <path d="M31.5055 16.4996L28.2461 13.2402" stroke="#FE2C55" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                                    <path d="M22.502 31.5057H27.0038C29.4901 31.5057 31.5057 29.4901 31.5057 27.0038V22.502" stroke="#FE2C55" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                                    <path d="M4.49414 14.9989V10.497C4.49414 8.01068 6.5097 5.99512 8.99602 5.99512H11.9973" stroke="#FE2C55" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                                    <path d="M4.49414 21.4102V30.755C4.49414 31.1693 4.83007 31.5053 5.24445 31.5053H17.2495C17.6638 31.5053 17.9998 31.1693 17.9998 30.755V21.4102" stroke="#FE2C55" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                                    <path d="M13.4228 31.5054V26.2532C13.4228 25.8389 13.0868 25.5029 12.6725 25.5029H9.67121C9.25682 25.5029 8.9209 25.8389 8.9209 26.2532V31.5054" stroke="#FE2C55" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                                    <path d="M19.501 22.5018L11.6889 16.8203C11.4258 16.6289 11.0694 16.6289 10.8063 16.8203L2.99414 22.5018" stroke="#FE2C55" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                                </svg>
+                            </div>
                             <div style="
                                 width: 409px;
                                 height: 28px;
