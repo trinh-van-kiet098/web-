@@ -11,8 +11,9 @@
     include "components/header.php";
 ?>
 <main>
-     <?php
-        include "pages/homepage/homepage.php";
+    <?php
+        include "pages/howitworks/howitworks.php";
+        // include "pages/homepage/homepage.php";
     ?>
 </main>
 <?php
