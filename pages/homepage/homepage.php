@@ -592,6 +592,138 @@
 </section>
 
 <!-- SECTION 5 -->
+<section style="
+    width: 1440px;
+    height: 944px;
+    background: #FFFFFF;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden; 
+    position: relative; 
+">
+    
+    <h2 style="font-size: 32px; font-weight: 700; color: #111; margin-bottom: 50px;">
+        <span style="color: #007AFF;">What teams can do</span> with Away Digital Home
+    </h2>
+
+    <div class="swiper mySwiper" style="
+        width: 100%;
+        position: relative;
+        overflow: visible !important;
+    ">
+        <div class="swiper-wrapper">
+            
+            <!-- SLIDE 1 -->
+            <div class="swiper-slide" style="
+                width: 1140px; 
+                height: 673px;
+                background: #fff;
+                box-sizing: border-box;
+                padding: 40px;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                justify-content: space-between;
+            ">
+                <div style="position: relative; width: 752px; height: 441px;">
+                    <video src="./pages/homepage/media/videoplayback.mp4" style="width: 100%; height: 100%; border-radius: 2px; object-fit: cover;"></video>
+                    <button class="custom-play-button" style="position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); z-index: 10; background: none; border: none; padding: 0; cursor: pointer; width: 80px; height: 80px;">
+                        <img src="./pages/homepage/media/play_back.png" alt="Button Background" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; z-index: 1;">
+                        <img src="./pages/homepage/media/play.png" alt="Play Icon" style="position: absolute; top: 50%; left: 55%; transform: translate(-50%, -50%); width: 40%; height: auto; z-index: 2;">
+                    </button>
+                </div>
+                <p style="color: #666; font-size: 18px; margin-top: 30px; text-align: center;">Keep plans and options aligned across teams</p>
+            </div>
+
+            <!-- SLIDE 2 (Đã cập nhật cấu trúc nút Play) -->
+            <div class="swiper-slide" style="
+                width: 1140px; 
+                height: 673px; 
+                background: #fff; 
+                box-sizing: border-box; 
+                padding: 40px; 
+                display: flex; 
+                flex-direction: column; 
+                align-items: center; 
+                justify-content: space-between;
+            ">
+                <div style="position: relative; width: 752px; height: 441px;">
+                    <video src="./pages/homepage/media/videoplayback.mp4" style="width: 100%; height: 100%; border-radius: 2px; object-fit: cover;"></video>
+                    <button class="custom-play-button" style="position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); z-index: 10; background: none; border: none; padding: 0; cursor: pointer; width: 80px; height: 80px;">
+                        <img src="./pages/homepage/media/play_back.png" alt="Button Background" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; z-index: 1;">
+                        <img src="./pages/homepage/media/play.png" alt="Play Icon" style="position: absolute; top: 50%; left: 55%; transform: translate(-50%, -50%); width: 40%; height: auto; z-index: 2;">
+                    </button>
+                </div>
+                <p style="color: #666; font-size: 18px; margin-top: 30px; text-align: center;">Description for the second design</p>
+            </div>
+
+            <!-- SLIDE 3 (Đã cập nhật cấu trúc nút Play) -->
+            <div class="swiper-slide" style="
+                width: 1140px; 
+                height: 673px; 
+                background: #fff; 
+                box-sizing: border-box; 
+                padding: 50px; 
+                display: flex; 
+                flex-direction: column; 
+                align-items: center; 
+                justify-content: space-between;
+            ">
+                <div style="position: relative; width: 752px; height: 441px;">
+                    <video src="./pages/homepage/media/videoplayback.mp4" style="width: 100%; height: 100%; border-radius: 2px; object-fit: cover;"></video>
+                    <button class="custom-play-button" style="position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); z-index: 10; background: none; border: none; padding: 0; cursor: pointer; width: 80px; height: 80px;">
+                        <img src="./pages/homepage/media/play_back.png" alt="Button Background" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; z-index: 1;">
+                        <img src="./pages/homepage/media/play.png" alt="Play Icon" style="position: absolute; top: 50%; left: 55%; transform: translate(-50%, -50%); width: 40%; height: auto; z-index: 2;">
+                    </button>
+                </div>
+                <p style="color: #666; font-size: 18px; margin-top: 30px; text-align: center;">Third slide content goes here</p>
+            </div>
+
+        </div>
+
+        <!-- Nút Swiper Prev (Đã xóa thuộc tính bottom thừa) -->
+        <div class="swiper-button-prev" style="
+            width: 48px;
+            height: 48px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            position: absolute;
+            left: 240px;
+            top: 285px;
+            cursor: pointer;
+        ">
+            <img src="./pages/homepage/media/SlideBtnL.png" style="width: 48px; height: 48px;"/>
+        </div>
+
+        <!-- Nút Swiper Next (Đã xóa thuộc tính bottom thừa) -->
+        <div class="swiper-button-next" style="
+            width: 48px;
+            height: 48px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            position: absolute;
+            top: 285px;
+            right: 240px;
+            cursor: pointer;
+        ">
+            <img src="./pages/homepage/media/SlideBtnR.png" style="width: 48px; height: 48px;"/>
+        </div>
+
+    </div>
+    
+    <style>
+        .swiper-button-next::after, .swiper-button-prev::after {
+            display: none !important;
+        }
+    </style>
+</section>
+
+
+
 
 <!-- SECTION 6 -->
 <section style="
@@ -644,3 +776,141 @@
 </section>
 
 <!-- SECTION 7 -->
+<section style="
+    width: 1440px;
+    height: 664px;
+    box-sizing: border-box;
+    padding: 80px 150px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-image: url('./pages/homepage/media/Form.png'); 
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+">
+    <div style="
+    width: 100%;
+    max-width: 949px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+">
+    
+    <div class="form-header-wrapper" style="width: 100%; display: flex; flex-direction: column; align-items: center; margin-bottom: 50px;">
+        <h2 style="
+            font-family: 'Aeonik Pro', sans-serif; font-weight: 700; font-style: normal; font-size: 36px; line-height: 44px; letter-spacing: -1px; color: #1542FF; margin: 0 0 16px 0;  
+        ">
+            See it in action
+        </h2>
+        
+        <p style="
+            font-family: 'Aeonik Pro', sans-serif; font-weight: 400; font-style: normal; font-size: 18px; line-height: 28px; letter-spacing: 0px; color: #666666; margin: 0;
+        ">
+            Book a walkthrough to see how Away Digital Home works in practice.
+        </p>
+    </div>
+    
+    <div class="form-inputs-wrapper" style="width: 100%; margin-bottom: 40px;">
+        <form style="
+            width: 100%;
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            row-gap: 40px;
+            column-gap: 60px;
+            text-align: left;
+        ">
+            
+            <div style="display: flex; flex-direction: column; border-bottom: 1px solid #A0A0A0;">
+                <label style="font-size: 16px; color: #333; margin-bottom: 4px; font-family: 'Aeonik Pro', sans-serif;">
+                    First name<span style="color: #FF3B30;">*</span>
+                </label>
+                <input type="text" required style="border: none; background: transparent; outline: none; font-size: 16px; font-family: 'Aeonik Pro', sans-serif; width: 100%; padding: 4px 0;">
+            </div>
+
+            <div style="display: flex; flex-direction: column; border-bottom: 1px solid #A0A0A0;">
+                <label style="font-size: 16px; color: #333; margin-bottom: 4px; font-family: 'Aeonik Pro', sans-serif;">
+                    Last name<span style="color: #FF3B30;">*</span>
+                </label>
+                <input type="text" required style="border: none; background: transparent; outline: none; font-size: 16px; font-family: 'Aeonik Pro', sans-serif; width: 100%; padding: 4px 0;">
+            </div>
+
+            <div style="display: flex; flex-direction: column; border-bottom: 1px solid #A0A0A0;">
+                <label style="font-size: 16px; color: #333; margin-bottom: 4px; font-family: 'Aeonik Pro', sans-serif;">
+                    Email address<span style="color: #FF3B30;">*</span>
+                </label>
+                <input type="email" required style="border: none; background: transparent; outline: none; font-size: 16px; font-family: 'Aeonik Pro', sans-serif; width: 100%; padding: 4px 0;">
+            </div>
+
+            <div style="display: flex; flex-direction: column; border-bottom: 1px solid #A0A0A0;">
+                <label style="font-size: 16px; color: #333; margin-bottom: 4px; font-family: 'Aeonik Pro', sans-serif;">
+                    Phone number
+                </label>
+                <input type="tel" style="border: none; background: transparent; outline: none; font-size: 16px; font-family: 'Aeonik Pro', sans-serif; width: 100%; padding: 4px 0;">
+            </div>
+
+            <div style="grid-column: 1 / -1; display: flex; flex-direction: column; border-bottom: 1px solid #A0A0A0;">
+                <label style="font-size: 16px; color: #333; margin-bottom: 4px; font-family: 'Aeonik Pro', sans-serif;">
+                    Write your message
+                </label>
+                <input type="text" style="border: none; background: transparent; outline: none; font-size: 16px; font-family: 'Aeonik Pro', sans-serif; width: 100%; padding: 4px 0;">
+            </div>
+            
+        </form>
+    </div>
+
+    <div class="form-button-wrapper" style="width: 151;
+        height: 40;
+        angle: 0 deg;
+        opacity: 1;
+        gap: 10px;
+        padding-top: 8px;
+        padding-right: 28px;
+        padding-bottom: 8px;
+        padding-left: 28px;
+">
+        <button type="submit" style="
+        
+        " onmouseover="this.style.opacity='0.85'" onmouseout="this.style.opacity='1'">
+            Submit form
+        </button>
+    </div>
+    
+</div>
+</section>
+
+
+
+
+
+
+
+
+
+<script>
+    new Swiper(".mySwiper", {
+    slidesPerView: '1.5',      
+    centeredSlides: true,      
+    loop: true,                 
+    loopedSlides: 3, 
+    loopAdditionalSlides: 3, loopPreventsSliding: false,
+    spaceBetween: 20,
+    navigation: {
+        nextEl: ".swiper-button-next",
+        prevEl: ".swiper-button-prev",
+    },
+    on: {
+        init: function () {
+            applySlideOpacity(this);
+        },
+        slideChange: function () {
+            applySlideOpacity(this);
+        }
+    }
+});
+
+function applySlideOpacity(swiperInstance) {
+}
+</script>
